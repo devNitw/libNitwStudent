@@ -45,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="navigation" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,14 +186,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601611897191</updated>
     </task>
-    <task id="LOCAL-00005" summary="done">
-      <created>1601612609609</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601612609609</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,10 +201,6 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="480" y="250" width="950" height="530" key="#PSD/0.0.1920.1032@0.0.1920.1032" timestamp="1601610345235" />
-    <state x="634" y="159" width="642" height="712" key="#app" timestamp="1601612395479">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="634" y="159" width="642" height="712" key="#app/0.0.1920.1032@0.0.1920.1032" timestamp="1601612395479" />
     <state x="393" y="374" width="620" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601609433311">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -229,14 +218,10 @@
     </state>
     <state x="698" y="190" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1601580258071" />
     <state x="873" y="227" width="824" height="484" key="AndroidCreateResourceFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601586947859" />
-    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2" timestamp="1601612609466">
+    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2" timestamp="1601612010744">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1601612609466" />
-    <state x="182" y="88" width="1536" height="855" key="DiffContextDialog" timestamp="1601612513127">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="182" y="88" width="1536" height="855" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612513127" />
+    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1601612010744" />
     <state x="933" y="190" key="FileChooserDialogImpl" timestamp="1601578747923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -257,10 +242,6 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601581799332" />
-    <state x="665" y="231" width="580" height="568" key="MultipleFileMergeDialog" timestamp="1601612366769">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="665" y="231" width="580" height="568" key="MultipleFileMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612366769" />
     <state x="655" y="207" width="600" height="615" key="RollbackChangesDialog" timestamp="1601610282309">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -281,18 +262,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="728" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1601611511450" />
-    <state x="671" y="209" width="568" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1601612352563">
+    <state x="637" y="307" width="636" height="415" key="git4idea.merge.GitMergeDialog" timestamp="1601612110953">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="671" y="209" width="568" height="612" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612352563" />
-    <state x="637" y="307" width="636" height="415" key="git4idea.merge.GitMergeDialog" timestamp="1601612658814">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="637" y="307" width="636" height="415" key="git4idea.merge.GitMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612658814" />
-    <state x="649" y="417" key="git4idea.ui.GitStashDialog" timestamp="1601612643567">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="649" y="417" key="git4idea.ui.GitStashDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612643567" />
+    <state x="637" y="307" width="636" height="415" key="git4idea.merge.GitMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601612110953" />
     <state x="617" y="364" width="676" height="301" key="git4idea.ui.GitUnstashDialog" timestamp="1601610311006">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
