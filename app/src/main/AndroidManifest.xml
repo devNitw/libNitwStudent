@@ -21,5 +21,6 @@
         <activity android:name=".Ui.MainActivity.Home.SyllabusCard" android:theme="@style/AppTheme.PopupCard"/>
         <activity android:name=".Ui.LibraryContent.ContentView" />
         <activity android:name=".Ui.PdfView"/>
+        <activity android:name=".Ui.LibrarianView"/>
     </application>
 </manifest>

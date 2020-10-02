@@ -1633,6 +1633,7 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id Author
 id BOTTOM_END
 id BOTTOM_START
 id BooksRecyclerView
@@ -1640,6 +1641,7 @@ id CTRL
 id ContentDescription
 id ContentName
 id ContentSave
+id ContentType
 id ContentView
 id DownloadDelete
 id DownloadDescription
@@ -1762,6 +1764,7 @@ id content
 id contentPanel
 id coordinator
 id cos
+id course
 id courseDetails
 id courseName
 id custom
@@ -1805,6 +1808,7 @@ id expand_activities_button
 id expanded_menu
 id fade
 id faq_card
+id filePath
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1952,6 +1956,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id selectFile
 id select_dialog_listview
 id selected
 id shortcut
@@ -2036,6 +2041,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id uploadFile
 id useLogo
 id usernameET
 id view
@@ -2133,6 +2139,7 @@ layout fragment_home
 layout fragment_library
 layout fragment_offline
 layout fragment_reading
+layout librarian_view
 layout library_content_cards
 layout login_card
 layout mtrl_alert_dialog

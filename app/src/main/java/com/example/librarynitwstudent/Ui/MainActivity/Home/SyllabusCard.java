@@ -10,10 +10,11 @@ import android.view.Gravity;
 import android.view.WindowManager;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.librarynitwstudent.R;
 
-public class SyllabusCard extends Activity {
+public class SyllabusCard extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

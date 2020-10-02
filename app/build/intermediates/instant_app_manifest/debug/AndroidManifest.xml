@@ -36,6 +36,7 @@
             android:theme="@style/AppTheme.PopupCard" />
         <activity android:name="com.example.librarynitwstudent.Ui.LibraryContent.ContentView" />
         <activity android:name="com.example.librarynitwstudent.Ui.PdfView" />
+        <activity android:name="com.example.librarynitwstudent.Ui.LibrarianView" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
