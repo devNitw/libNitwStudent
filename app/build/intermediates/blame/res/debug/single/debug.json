@@ -4,6 +4,10 @@
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download.xml.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\download.xml"
+    },
+    {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
@@ -60,12 +64,12 @@
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\profile_icon.xml"
     },
     {
-        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_main.xml.flat",
-        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\card_main.xml"
-    },
-    {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_main.xml.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\card_main.xml"
     },
     {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
@@ -92,12 +96,12 @@
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\stream_cards.xml"
     },
     {
-        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_offline.xml.flat",
@@ -156,19 +160,27 @@
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_viewer.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\pdf_viewer.xml"
+    },
+    {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_view.xml.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\pdf_view.xml"
+    },
+    {
         "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "D:\\libNitwStudent\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\libNitwStudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_library_content_cards.xml.flat",
+        "source": "D:\\libNitwStudent\\app\\src\\main\\res\\layout\\library_content_cards.xml"
     }
 ]

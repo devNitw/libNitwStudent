@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.librarynitwstudent.R;
+import com.example.librarynitwstudent.Ui.LibraryContent.ContentView;
 import com.example.librarynitwstudent.Ui.MainActivity.Home.SyllabusCard;
 import com.example.librarynitwstudent.models.Courses;
 
@@ -49,6 +50,8 @@ public class HomeRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             @Override
             public void onClick(View v) {
                 Toast.makeText(context,"clicked view",Toast.LENGTH_SHORT).show();
+                Intent i =new Intent(context, ContentView.class);
+                context.startActivity(i);
             }
         });
         ((ViewHolder)holder).syllabus.setOnClickListener(new View.OnClickListener() {

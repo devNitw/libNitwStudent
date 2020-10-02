@@ -696,6 +696,10 @@ attr rippleColor
 attr round
 attr roundPercent
 attr saturation
+attr sb_handlerColor
+attr sb_horizontal
+attr sb_indicatorColor
+attr sb_indicatorTextColor
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -1568,6 +1572,10 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable custom_card_view
+drawable default_scroll_handle_bottom
+drawable default_scroll_handle_left
+drawable default_scroll_handle_right
+drawable default_scroll_handle_top
 drawable delete
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1575,6 +1583,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable download
 drawable gradient
 drawable ic_baseline_arrow_downward_24
 drawable ic_baseline_home_24
@@ -1626,14 +1635,21 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BooksRecyclerView
 id CTRL
+id ContentDescription
+id ContentName
+id ContentSave
+id ContentView
 id DownloadDelete
 id DownloadDescription
 id DownloadName
 id DownloadView
 id FUNCTION
 id META
+id MagazineRecyclerView
 id NO_DEBUG
+id PapersRecyclerView
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1644,6 +1660,7 @@ id StreamName
 id StreamPager
 id TOP_END
 id TOP_START
+id ThesisRecyclerView
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1897,6 +1914,7 @@ id passwordET
 id password_toggle
 id path
 id pathRelative
+id pdfView
 id peekHeight
 id percent
 id pin
@@ -2115,6 +2133,7 @@ layout fragment_home
 layout fragment_library
 layout fragment_offline
 layout fragment_reading
+layout library_content_cards
 layout login_card
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2159,6 +2178,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pdf_view
 layout pdf_viewer
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3086,6 +3106,7 @@ styleable RangeSlider values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground
+styleable ScrollBar sb_handlerColor sb_horizontal sb_indicatorColor sb_indicatorTextColor
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
