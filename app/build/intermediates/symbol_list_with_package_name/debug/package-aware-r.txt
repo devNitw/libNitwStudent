@@ -1586,9 +1586,13 @@ drawable design_snackbar_background
 drawable download
 drawable gradient
 drawable ic_baseline_arrow_downward_24
+drawable ic_baseline_call_24
 drawable ic_baseline_home_24
 drawable ic_baseline_library_books_24
 drawable ic_baseline_menu_book_24
+drawable ic_baseline_person_24
+drawable ic_baseline_search_24
+drawable ic_baseline_settings_24
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -1736,6 +1740,7 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottom_nav_view
 id bounce
 id buttonPanel
 id cancel_action
@@ -1799,6 +1804,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
 id end
 id end_padder
 id enterAlways
@@ -1889,13 +1895,14 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nav_contact
 id nav_controller_view_tag
 id nav_home
 id nav_lib
-id nav_menu
 id nav_offline
+id nav_profile
 id nav_read
-id nav_view
+id nav_settings
 id navigation_header_container
 id never
 id noScroll
@@ -1921,6 +1928,7 @@ id pathRelative
 id pdfView
 id peekHeight
 id percent
+id phone
 id pin
 id position
 id postLayout
@@ -1946,6 +1954,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -1963,6 +1972,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id side_nav_view
 id sin
 id skipCollapsed
 id slide
@@ -2026,6 +2036,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2113,6 +2124,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_contact
 layout activity_main
 layout activity_menu
 layout authenticate_user
@@ -2170,6 +2182,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2207,8 +2220,10 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu bottom_menu
+layout toolbar
 menu bottom_nav_menu
+menu side_nav_menu
+menu tool_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2247,6 +2262,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string contact
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2295,14 +2311,18 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string navigation_drawer_close
+string navigation_drawer_open
 string offline
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile
 string reading
 string search_menu_title
+string settings
 string status_bar_notification_info_overflow
 string title_activity_menu
 string title_dashboard

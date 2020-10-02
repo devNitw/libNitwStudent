@@ -2,9 +2,11 @@ package com.example.librarynitwstudent.Ui.LibraryContent;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -23,10 +25,16 @@ public class ContentView extends AppCompatActivity {
     private RecyclerView booksRecyclerView, thesisRecyclerView, papersRecyclerView, magazineRecyclerView;
     private DownloadFragmentViewModel viewModel;
     private ContentRecyclerAdapter recyclerAdapter;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setContentView(R.layout.course_activity);
+
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+
         viewModel= ViewModelProviders.of(this).get(DownloadFragmentViewModel.class);
         viewModel.init();
         booksRecyclerView=findViewById(R.id.BooksRecyclerView);
