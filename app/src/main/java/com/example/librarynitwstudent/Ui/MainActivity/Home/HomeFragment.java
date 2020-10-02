@@ -1,4 +1,4 @@
-package com.example.librarynitwstudent.Ui.MainActivity;
+package com.example.librarynitwstudent.Ui.MainActivity.Home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

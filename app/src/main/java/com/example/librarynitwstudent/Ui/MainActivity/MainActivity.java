@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import com.example.librarynitwstudent.Adapters.Main.MainFragmentAdapter;
 import com.example.librarynitwstudent.R;
+import com.example.librarynitwstudent.Ui.MainActivity.Home.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         fragmentAdapter=new MainFragmentAdapter(getSupportFragmentManager());
         viewPager=findViewById(R.id.main_container);
-        BottomNavigationView bottomNav = findViewById(R.id.nav_view);
+        final BottomNavigationView bottomNav = findViewById(R.id.nav_view);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         fragmentAdapter.AddFragment(new HomeFragment(),"Home");
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentAdapter.AddFragment(new OfflineFragment(),"Saved");
 
         viewPager.setAdapter(fragmentAdapter);
+
 
     }
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
