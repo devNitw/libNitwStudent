@@ -60,10 +60,6 @@ public class LibraryFragment extends Fragment {
             }
         });
         initRecyclerView();
-
-
-
-
         return view;
     }
     private void initRecyclerView(){
