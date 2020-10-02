@@ -18,7 +18,7 @@
 12-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:5:22-78
 13
 14    <application
-14-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:7:5-24:19
+14-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:7:5-25:19
 15        android:allowBackup="true"
 15-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:8:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -65,17 +65,20 @@
 37        <activity android:name="com.example.librarynitwstudent.Ui.PdfView" />
 37-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:23:9-47
 37-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:23:19-45
-38
-39        <provider
-39-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-41            android:authorities="com.example.librarynitwstudent.lifecycle-process"
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-42            android:exported="false"
-42-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-43            android:multiprocess="true" />
-43-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-44    </application>
-45
-46</manifest>
+38        <activity android:name="com.example.librarynitwstudent.Ui.LibrarianView" />
+38-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:24:9-53
+38-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:24:19-51
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+42            android:authorities="com.example.librarynitwstudent.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+45    </application>
+46
+47</manifest>
