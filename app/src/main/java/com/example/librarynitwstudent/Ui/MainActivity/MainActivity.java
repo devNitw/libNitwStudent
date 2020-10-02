@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         fragmentAdapter.AddFragment(new HomeFragment(),"Home");
         fragmentAdapter.AddFragment(new LibraryFragment(),"Find");
+        fragmentAdapter.AddFragment(new OfflineFragment(),"Offline");
         fragmentAdapter.AddFragment(new ReadingFragment(),"Daily");
-        fragmentAdapter.AddFragment(new OfflineFragment(),"Saved");
 
         viewPager.setAdapter(fragmentAdapter);
 
