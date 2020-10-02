@@ -9,7 +9,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.librarynitwstudent.MainActivity;
+import com.example.librarynitwstudent.Ui.MainActivity.MainActivity;
 import com.example.librarynitwstudent.R;
 
 public class AuthenticateUser extends AppCompatActivity {

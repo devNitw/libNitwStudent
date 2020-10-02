@@ -29,9 +29,9 @@
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
 21-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="com.example.librarynitwstudent.MainActivity" />
-22-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:9-49
-22-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:19-47
+22        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.MainActivity" />
+22-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:9-65
+22-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:19-63
 23        <activity android:name="com.example.librarynitwstudent.Ui.AuthenticateUser" >
 23-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:13:9-18:20
 23-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:13:19-54
@@ -46,6 +46,17 @@
 27-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:16:27-74
 28            </intent-filter>
 29        </activity>
-30    </application>
-31
-32</manifest>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+33            android:authorities="com.example.librarynitwstudent.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] D:\Gradle\caches\transforms-2\files-2.1\894873d045a0a220e7c24d43283db9eb\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+36    </application>
+37
+38</manifest>
