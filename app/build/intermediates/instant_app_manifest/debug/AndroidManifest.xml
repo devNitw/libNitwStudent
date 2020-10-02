@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.ContactActivity" />
         <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.MainActivity" />
         <activity android:name="com.example.librarynitwstudent.Ui.AuthenticateUser" >
             <intent-filter>

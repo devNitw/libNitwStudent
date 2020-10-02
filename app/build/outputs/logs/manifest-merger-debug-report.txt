@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/86e1e5d883ec66c1063a0d9a82a27792/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/af969365f1050b733955e45661b9df21/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/fee048776b4040c0a73e83e4303a6cff/material-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -49,25 +49,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/c
 MERGED from [androidx.print:print:1.0.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/bcf856ddfeb04b3b73ed182739910d39/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/1e0614212b25f4ae67724a3587ed8129/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-20:12
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/86e1e5d883ec66c1063a0d9a82a27792/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/86e1e5d883ec66c1063a0d9a82a27792/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/fee048776b4040c0a73e83e4303a6cff/material-1.2.1/AndroidManifest.xml:22:5-20
@@ -94,24 +94,34 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle
 		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.librarynitwstudent.Ui.MainActivity.ContactActivity
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:9-78
+	android:name
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:19-66
 activity#com.example.librarynitwstudent.Ui.MainActivity.MainActivity
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:9-65
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:9-66
 	android:name
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:19-63
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:19-63
 activity#com.example.librarynitwstudent.Ui.AuthenticateUser
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:9-18:20
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:19-54
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:14:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:15:17-70
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.librarynitwstudent.Ui.MainActivity.Home.SyllabusCard
+ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:21:9-23:57
+	android:theme
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:22:13-62
 uses-sdk
 INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml

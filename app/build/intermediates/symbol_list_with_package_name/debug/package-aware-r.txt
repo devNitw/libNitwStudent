@@ -911,6 +911,7 @@ bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color LibCards
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -960,6 +961,8 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color cool_blue
+color cool_white
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1006,6 +1009,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gradient_end
+color gradient_start
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1563,18 +1568,21 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable custom_card_view
+drawable delete
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradient
 drawable ic_baseline_arrow_downward_24
 drawable ic_baseline_call_24
 drawable ic_baseline_home_24
 drawable ic_baseline_library_books_24
 drawable ic_baseline_menu_book_24
 drawable ic_baseline_person_24
+drawable ic_baseline_search_24
 drawable ic_baseline_settings_24
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
@@ -1623,6 +1631,10 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DownloadDelete
+id DownloadDescription
+id DownloadName
+id DownloadView
 id FUNCTION
 id META
 id NO_DEBUG
@@ -1631,6 +1643,9 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id StreamDetails
+id StreamName
+id StreamPager
 id TOP_END
 id TOP_START
 id accelerate
@@ -1769,6 +1784,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
 id end
 id end_padder
 id enterAlways
@@ -1787,6 +1803,7 @@ id fixed
 id flip
 id floating
 id forever
+id frequently_used_recycler_view
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1874,6 +1891,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offline_recycler_view
 id on
 id outline
 id packed
@@ -1888,6 +1906,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id pin
 id position
 id postLayout
@@ -1913,6 +1932,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -2080,10 +2100,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_contact
 layout activity_main
 layout activity_menu
 layout authenticate_user
 layout card_main
+layout course_activity
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2100,6 +2122,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout downloaded_cards
 layout fragment_home
 layout fragment_library
 layout fragment_offline
@@ -2149,9 +2172,11 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pdf_viewer
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout stream_cards
 layout support_simple_spinner_dropdown_item
 layout syllabus_card
 layout test_action_chip
@@ -2170,6 +2195,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
 menu side_nav_menu
+menu tool_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2283,6 +2309,7 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_PopupCard
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
