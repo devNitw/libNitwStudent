@@ -1,8 +1,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.librarynitwstudent">
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -22,9 +20,8 @@
         <activity
             android:name=".Ui.MainActivity.Home.SyllabusCard"
             android:theme="@style/AppTheme.PopupCard" />
-        <activity android:name=".Ui.MainActivity.Home.SyllabusCard" android:theme="@style/AppTheme.PopupCard"/>
+
         <activity android:name=".Ui.LibraryContent.ContentView" />
         <activity android:name=".Ui.PdfView"/>
     </application>
-
 </manifest>

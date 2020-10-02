@@ -43,7 +43,8 @@
 
 
         </androidx.appcompat.widget.Toolbar>
-        
+
+
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/main_container"
             android:layout_width="match_parent"

@@ -49,11 +49,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentAdapter.AddFragment(new OfflineFragment(), "Saved");
         fragmentAdapter.AddFragment(new ReadingFragment(), "Daily");
 
-//        menuItems.add((BottomNavigationItemView) findViewById(R.id.nav_home));
-//        menuItems.add((BottomNavigationItemView) findViewById(R.id.nav_lib));
-//        menuItems.add((BottomNavigationItemView) findViewById(R.id.nav_offline));
-//        menuItems.add((BottomNavigationItemView) findViewById(R.id.nav_read));
-
         viewPager.setAdapter(fragmentAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -139,13 +134,13 @@ public class MainActivity extends AppCompatActivity {
 //                            startActivity(intent);
                             break;
                         case R.id.nav_contact:
-                            intent = new Intent(MainActivity.this, SyllabusCard.class);
+                            intent = new Intent(MainActivity.this, ContactActivity.class);
                             startActivity(intent);
                             break;
 
                     }
 
-                    startActivity(intent);
+                    drawer.closeDrawer(GravityCompat.START);
                     return true;
                 }
             };
