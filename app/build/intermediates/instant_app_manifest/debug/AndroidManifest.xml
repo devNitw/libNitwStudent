@@ -20,10 +20,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.librarynitwstudent.UI.MenuActivity"
-            android:label="@string/title_activity_menu" />
-        <activity android:name="com.example.librarynitwstudent.MainActivity" >
+        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.MainActivity" />
+        <activity android:name="com.example.librarynitwstudent.Ui.AuthenticateUser" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
