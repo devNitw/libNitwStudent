@@ -1620,7 +1620,6 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id ConstraintLayout
 id FUNCTION
 id META
 id NO_DEBUG
@@ -1629,6 +1628,9 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id StreamDetails
+id StreamName
+id StreamPager
 id TOP_END
 id TOP_START
 id accelerate
@@ -1784,6 +1786,7 @@ id fixed
 id flip
 id floating
 id forever
+id frequently_used_recycler_view
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1975,7 +1978,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2080,7 +2082,6 @@ layout activity_menu
 layout authenticate_user
 layout card_main
 layout custom_dialog
-layout daily_fragment
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2096,12 +2097,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout find_fragment
 layout fragment_home
 layout fragment_library
 layout fragment_offline
 layout fragment_reading
-layout home_fragment
 layout login_card
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2146,10 +2145,10 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout saved_fragment
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout stream_cards
 layout support_simple_spinner_dropdown_item
 layout syllabus_card
 layout test_action_chip
@@ -2276,6 +2275,7 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_PopupCard
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
