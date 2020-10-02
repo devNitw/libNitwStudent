@@ -1,6 +1,8 @@
 package com.example.librarynitwstudent.Adapters.Main;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.librarynitwstudent.R;
+import com.example.librarynitwstudent.Ui.PdfView;
 import com.example.librarynitwstudent.models.Downloads;
 
 import java.util.List;
@@ -47,6 +50,8 @@ public class OfflineRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vi
             @Override
             public void onClick(View v) {
                 Toast.makeText(context,"Downloads clicked",Toast.LENGTH_SHORT).show();
+                Intent i=new Intent(context, PdfView.class);
+                context.startActivity(i);
             }
         });
         ((ViewHolder)holder).delete.setOnClickListener(new View.OnClickListener() {
