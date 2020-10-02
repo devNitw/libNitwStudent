@@ -9,7 +9,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077029a3-6688-4599-87f3-82c01e4a340d" name="Default Changelist" comment="" />
+    <list default="true" id="077029a3-6688-4599-87f3-82c01e4a340d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +68,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -218,10 +224,10 @@
     </state>
     <state x="698" y="190" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1601580258071" />
     <state x="873" y="227" width="824" height="484" key="AndroidCreateResourceFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1601586947859" />
-    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2" timestamp="1601612010744">
+    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2" timestamp="1601613027175">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1601612010744" />
+    <state x="569" y="5" width="879" height="852" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1601613027175" />
     <state x="933" y="190" key="FileChooserDialogImpl" timestamp="1601578747923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
