@@ -9,6 +9,9 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,6 +35,8 @@
         <activity
             android:name="com.example.librarynitwstudent.Ui.MainActivity.Home.SyllabusCard"
             android:theme="@style/AppTheme.PopupCard" />
+        <activity android:name="com.example.librarynitwstudent.Ui.LibraryContent.ContentView" />
+        <activity android:name="com.example.librarynitwstudent.Ui.PdfView" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
