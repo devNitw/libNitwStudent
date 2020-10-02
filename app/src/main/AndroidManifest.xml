@@ -23,5 +23,6 @@
 
         <activity android:name=".Ui.LibraryContent.ContentView" />
         <activity android:name=".Ui.PdfView"/>
+        <activity android:name=".Ui.LibrarianView"/>
     </application>
 </manifest>
