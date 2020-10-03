@@ -6,72 +6,78 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
+8-->D:\libNitwStudent\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml
+9-->D:\libNitwStudent\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:5:5-26:19
+11-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
-12-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:6:9-35
+12-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/ae3468b444d41a56f261ecbb8448fe17/core-1.3.1/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.1] D:\Gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:7:9-43
+16-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:8:9-41
+17-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:9:9-54
+18-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:10:9-35
+19-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
-21-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:11:9-40
-22        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.ContactActivity" />
-22-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:9-78
-22-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:12:19-66
-23        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.MainActivity" />
-23-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:9-66
-23-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:13:19-63
-24        <activity android:name="com.example.librarynitwstudent.Ui.AuthenticateUser" >
-24-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:14:9-19:20
-24-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:14:19-54
-25            <intent-filter>
-25-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:15:13-18:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:17-70
-26-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:17:17-77
-28-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:17:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity
-31-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:20:9-22:57
-32            android:name="com.example.librarynitwstudent.Ui.MainActivity.Home.SyllabusCard"
-32-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:21:13-62
-33            android:theme="@style/AppTheme.PopupCard" />
-33-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:22:13-54
-34        <activity android:name="com.example.librarynitwstudent.Ui.LibraryContent.ContentView" />
-34-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:24:9-67
-34-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:24:19-64
-35        <activity android:name="com.example.librarynitwstudent.Ui.PdfView" />
-35-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:25:9-47
-35-->/home/chaitanya/MyFolder/android_projects/libNitwStudent/app/src/main/AndroidManifest.xml:25:19-45
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-39            android:authorities="com.example.librarynitwstudent.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/chaitanya/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-42    </application>
-43
-44</manifest>
+21-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity
+22-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:9-13:56
+23            android:name="com.example.librarynitwstudent.Ui.MainActivity.ContactActivity"
+23-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:12:19-66
+24            android:theme="@style/AppTheme.PopupCard" />
+24-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:13:13-54
+25        <activity android:name="com.example.librarynitwstudent.Ui.MainActivity.MainActivity" />
+25-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:14:9-66
+25-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:14:19-63
+26        <activity android:name="com.example.librarynitwstudent.Ui.AuthenticateUser" >
+26-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:15:9-20:20
+26-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:15:19-54
+27            <intent-filter>
+27-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:16:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:17:17-70
+28-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:18:17-77
+30-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:21:9-23:57
+34            android:name="com.example.librarynitwstudent.Ui.MainActivity.Home.SyllabusCard"
+34-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:22:13-62
+35            android:theme="@style/AppTheme.PopupCard" />
+35-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:23:13-54
+36        <activity android:name="com.example.librarynitwstudent.Ui.LibraryContent.ContentView" />
+36-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:24:9-67
+36-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:24:19-64
+37        <activity android:name="com.example.librarynitwstudent.Ui.PdfView" />
+37-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:25:9-47
+37-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:25:19-45
+38        <activity android:name="com.example.librarynitwstudent.Ui.LibrarianView" />
+38-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:26:9-53
+38-->D:\libNitwStudent\app\src\main\AndroidManifest.xml:26:19-51
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+42            android:authorities="com.example.librarynitwstudent.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+45    </application>
+46
+47</manifest>
