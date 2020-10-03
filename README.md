@@ -1,5 +1,8 @@
 # Library App For NitW.
 ## The app is made at Devathon 1.0 for Problem Statement A1.
+
+### Demo Video **[here](https://github.com/devNitw/libNitwStudent/blob/main/2020-10-03-16-30-41_2Cer98sM.compressed.mp4?raw=true)**
+
 Lib makes it easy for the students as well as librarian to go through the digital section of the library without physically going to the institute library.
 It insures that the data is updated frequently to get seemless access to the available content.
 Major feature of the app includes 
